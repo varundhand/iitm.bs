@@ -77,8 +77,8 @@ courses_template = '''
     <h1 class="mainTitle">Course Details</h1>
     <table border="1">
       <tr>
-        <td>Average Marks</td>
-        <td>Maximum Marks</td>
+        <th>Average Marks</th>
+        <th>Maximum Marks</th>
       </tr>
       <tr>
         <td>{{ avg_marks }}</td>
